@@ -1,0 +1,10 @@
+# Exclude large OFED tarball - download separately
+*.tgz
+*.tar.gz
+*.tar.xz
+
+# Build artifacts
+build/
+__pycache__/
+*.pyc
+.DS_Store
