@@ -24,9 +24,9 @@ cat /proc/meminfo | grep HugePages_Total
 
 ## Pull Image
 
-\```bash
+```bash
 docker pull ghcr.io/jebinjeb/dpdk-testpmd-mlx5-container:latest
-\```
+```
 
 
 ## Build Locally (requires MLNX OFED tarball)
