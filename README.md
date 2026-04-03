@@ -2,6 +2,8 @@
 
 Container image for running `dpdk-testpmd` with Mellanox ConnectX-5 SR-IOV VF bandwidth testing in Kubernetes pods.
 
+![Docker Image](https://ghcr.io/jebinjeb/dpdk-testpmd-mlx5-container/badge)
+
 ## Overview
 
 This image provides a ready-to-use `dpdk-testpmd` environment built on Rocky Linux 8.8 with:
@@ -21,6 +23,15 @@ This image provides a ready-to-use `dpdk-testpmd` environment built on Rocky Lin
 lsmod | grep ib_uverbs
 cat /proc/meminfo | grep HugePages_Total
 ```
+
+## Pull Image
+
+\```bash
+docker pull ghcr.io/jebinjeb/dpdk-testpmd-mlx5-container:latest
+\```
+
+
+## Build Locally (requires MLNX OFED tarball)
 
 ### Files Required to Build
 Download and place in the same directory as the Dockerfile: MLNX_OFED_LINUX-24.10-4.1.4.0-rhel8.8-x86_64.tgz
