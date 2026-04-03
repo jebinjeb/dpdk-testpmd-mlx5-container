@@ -2,8 +2,6 @@
 
 Container image for running `dpdk-testpmd` with Mellanox ConnectX-5 SR-IOV VF bandwidth testing in Kubernetes pods.
 
-![Docker Image](https://ghcr.io/jebinjeb/dpdk-testpmd-mlx5-container/badge)
-
 ## Overview
 
 This image provides a ready-to-use `dpdk-testpmd` environment built on Rocky Linux 8.8 with:
